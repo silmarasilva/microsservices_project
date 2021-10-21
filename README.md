@@ -2,7 +2,6 @@
 
 Este projeto é o resultado da refatoração de uma aplicação monolítica para microsserviço.
 
-<b>Parte 1</b>
 
 # Tecnologias Utilizadas
 
