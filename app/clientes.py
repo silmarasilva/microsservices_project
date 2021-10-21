@@ -9,7 +9,7 @@ from flask_basicauth import BasicAuth
 
 basic_auth = auth
 
-# Adicionando um registro - POST
+# Adicionando um registro - POST d
 # Indicar o número do id do cliente no body ou não colocar o campo id no body
 
 @app.route('/clientes', methods=['POST'])
