@@ -44,7 +44,7 @@ def add_curso():
 
 # Retornando todos os registros - GET
 @app.route('/produtos', methods=['GET'])
-#@basic_auth.required
+@basic_auth.required
 def get_cursos():
     try:
         conn = mysql.connect()

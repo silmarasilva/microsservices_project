@@ -74,7 +74,7 @@ def add_compra():
 # Criando as Rotas API para relação JOIN Cliente, Compra e Produtos/Cursos
 # Buscando todas as vendas cadastradas (GET)
 @app.route('/vendas', methods = ['GET'])
-# @basic_auth.required
+@basic_auth.required
 def compras():
     try:
         conn = mysql.connect()
